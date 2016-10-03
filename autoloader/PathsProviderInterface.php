@@ -8,8 +8,8 @@
 
 interface PathsProviderInterface
 {   
-    public function appendPath( String $path );
-    public function setPaths( Array $paths );
+    public function appendPath( $path );
+    public function setPaths( $paths );
     public function getPaths();
 }
 

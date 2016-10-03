@@ -14,12 +14,12 @@ class ConcretePathsProvider implements PathsProviderInterface
 		$this->paths = array();
 	}
 
-	public function appendPath( String $path )
+	public function appendPath( $path )
 	{
 		array_push($this->paths, $path);
 	}
 
-	public function setPaths( Array $paths )
+	public function setPaths( $paths )
 	{
 		$this->paths = $paths;
 	}
