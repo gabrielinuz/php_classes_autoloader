@@ -7,7 +7,12 @@
 include_once('Autoloader.php');
 include_once('ConcretePathsProvider.php');
 
-$loader = Autoloader::initWith( new ConcretePathsProvider );
+
+$pathsProvider = new ConcretePathsProvider;
+$pathsProvider->appendPath('TestClassesFolder01/');
+$pathsProvider->appendPath('TestClassesFolder02/');
+
+$loader = Autoloader::initWith( $pathsProvider );
 
 new TestClass01;
 
