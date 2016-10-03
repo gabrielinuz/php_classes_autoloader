@@ -24,9 +24,9 @@ class ConcretePathsProvider implements PathsProviderInterface
 		$this->paths = $paths;
 	}
 
-    public function getPaths()
-    {
-        return $this->paths;
-    }
+	public function getPaths()
+	{
+		return $this->paths;
+	}
 }
 ?>
