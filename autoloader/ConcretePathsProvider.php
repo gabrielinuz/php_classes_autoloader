@@ -8,24 +8,24 @@ require_once "PathsProviderInterface.php";
 
 class ConcretePathsProvider implements PathsProviderInterface
 {
-	public function __construct()
-	{
-		$this->paths = array();
-	}
+    public function __construct()
+    {
+        $this->paths = array();
+    }
 
-	public function appendPath( $path )
-	{
-		array_push($this->paths, $path);
-	}
+    public function appendPath( $path )
+    {
+        array_push($this->paths, $path);
+    }
 
-	public function setPaths( $paths )
-	{
-		$this->paths = $paths;
-	}
+    public function setPaths( $paths )
+    {
+        $this->paths = $paths;
+    }
 
-	public function getPaths()
-	{
-		return $this->paths;
-	}
+    public function getPaths()
+    {
+        return $this->paths;
+    }
 }
 ?>
