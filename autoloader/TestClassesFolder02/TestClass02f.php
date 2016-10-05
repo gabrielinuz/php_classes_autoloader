@@ -5,10 +5,10 @@
 * https://opensource.org/licenses/GPL-3.0
 **/
 
-class TestClass02
+class TestClass02f
 {
     public function __construct()
     {
-        echo "TestClass02 loaded. <br>";
+        echo "TestClass02f loaded. <br>";
     }
 }
