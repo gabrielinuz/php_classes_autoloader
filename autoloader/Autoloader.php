@@ -1,6 +1,8 @@
 <?php
 /**
 * Copyright Gabriel Nicolás González Ferreira <gabrielinuz@gmail.com>
+* and Felipe Evans <fevans@gmail.com>  
+* This file is part of classset-php framework.
 * Released under the GPL3 license
 * https://opensource.org/licenses/GPL-3.0
 **/
