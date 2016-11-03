@@ -28,7 +28,7 @@ class Autoloader
         spl_autoload_register(null, false);
  
         /*** specify extensions that may be loaded ***/
-        spl_autoload_extensions('.php, .class.php');
+        spl_autoload_extensions('.php');
 
         /*** register the loader functions ***/
         spl_autoload_register( array($this, 'loadClasses') );

@@ -13,6 +13,11 @@ class ConcretePathsProvider implements PathsProviderInterface
         $this->paths = array();
     }
 
+    public function setFile( $filePath )
+    {
+        $this->paths = parse_ini_file($filePath);
+    }
+
     public function appendPath( $path )
     {
         array_push($this->paths, $path);

@@ -7,6 +7,7 @@
 
 interface PathsProviderInterface
 {   
+	public function setFile( $filePath );
     public function appendPath( $path );
     public function setPaths( $paths );
     public function getPaths();
